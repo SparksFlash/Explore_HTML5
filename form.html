@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="nav.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="Home.html">Home</a></li>
+                <li><a href="form.html">Form</a></li>
+                <li><a href="semantic.html">Semantic</a></li>
+                <li><a href="table.html">Table</a></li>
+                <li><a href="">About Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <h1>Fill this form</h1>
+    <form action="">
+        <p>
+            Name : <input type="text" name="name" placeholder="Enter your name" id="">
+        </p>
+        <p>
+            Email : <input type="text" name="email" placeholder="Enter your email" id="">
+        </p>
+
+
+
+
+        <fieldset>
+            <legend>Select your background</legend>
+            <p>
+                <label for="sci">
+                    <input type="radio" name="group" id="sci">Science
+                </label>
+            </p>
+            <p>
+                <label for="arts"><input type="radio" name="group" id="arts">
+                    Arts
+                </label>
+            </p>
+            <p>
+                <label for="com"><input type="radio" name="group" id="com">
+                    Commerce
+                </label>
+            </p>
+        </fieldset>                                                                               <! shift+alt+ctrl+down >
+
+
+        <fieldset>                                                                                <! p*3>label>input:checkbox >
+            <legend>Select your level</legend>
+            <p><label for=a"><input type="checkbox" name="level" id="a"></label>A Level</p>
+            <p><label for="o"><input type="checkbox" name="level" id="o"></label>O Level</p>
+            <p><label for="d"><input type="checkbox" name="level" id="d"></label>Dakhil</p>
+        </fieldset>
+
+
+        <p>Special Insformation
+            <br>
+            <textarea name="instruction" id="" cols="30" rows="10"></textarea>
+        </p>
+
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+
+    </form>
+</body>
+</html>
